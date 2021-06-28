@@ -26,6 +26,8 @@
 - ``` git push origin <自分のブランチ名> ```を打つ → [ここへ移動](https://github.com/potechi2021/HackU2021summer/ "ここ")
 - のちに記入
 
+- ![エビフライトライアングル](readme_img/compare_and_pullrequest "サンプル")
+
 ### ちょくちょくやって欲しいこと
 
 - ``` git pull origin main ``` 
