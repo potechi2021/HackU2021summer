@@ -18,6 +18,7 @@
 ### ファイルを変更する時
 
 - ターミナルで以下の操作を行う
+- ``` git pull origin main``` 
 - ``` git branch ``` と打ち、自分のブランチにいることを確認する 
 - mainにいる場合は、``` git checkout <自分のブランチ名> ```で移動する
 - ファイルに変更を加える
@@ -26,7 +27,19 @@
 - ``` git push origin <自分のブランチ名> ```を打つ → [ここへ移動](https://github.com/potechi2021/HackU2021summer/ "ここ")
 - のちに記入
 
-- ![エビフライトライアングル](readme_img/compare_and_pullrequest.png)
+
+- ![1つ目](readme_img/compare_and_pullrequest.png)
+- ![2つ目](readme_img/create_pull_request.png)
+- ![3つ目](readme_img/merge_pull_request.png)
+- ![4つ目](readme_img/delete_branch.png)
+
+- ターミナルに戻る
+- ``` git checkout main ``` でmainに戻る
+- ``` git pull origin main ``` でリモートブランチとバージョンを一致させる
+- ``` git branch ``` で今いるブランチを確認
+- ``` git branch -D <消すブランチ名>``` でブランチを削除
+- ``` git branch <自分のブランチ名>``` でブランチを作成
+- ``` git checkout <自分のブランチ名>``` でブランチを移動
 
 ### ちょくちょくやって欲しいこと
 
